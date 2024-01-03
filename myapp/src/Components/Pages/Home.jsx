@@ -1,14 +1,12 @@
 import '../Styles/Home.css';
-import Footer from '../Pages/Footer';
 
 
 const Home = () => {
   return (
     <>
       <div className="mains">
-      <h1 className="titles"></h1>
-      <h2></h2>
-      <h2></h2>
+      {/* <h1 className="titles"></h1> */}
+
 
       <div className="containers">
       <h1 className="caps">Ecstacy of Swiss</h1>
@@ -20,7 +18,7 @@ const Home = () => {
             />
           <div className="contents">
             <h1 className="fonts">Geneva</h1>
-            <h2></h2>
+           
             <center>
 
             <h2 className="fonts">92%❤️</h2>
@@ -37,13 +35,13 @@ const Home = () => {
             />
           <div className="contents">
             <h1 className="fonts">Basel</h1>
-            <h2></h2>
+           
             <center>
             <h2 className="fonts">Popular📈</h2>
             {/* <h2></h2> */}
             <h2 className="fonts">93%❤️</h2>
             </center>
-            <a href="https://www.basel.com/en">Explore</a>
+            {/* <a href="https://www.basel.com/en">Explore</a> */}
           </div>
         </div>
 
@@ -55,28 +53,25 @@ const Home = () => {
             />
           <div className="contents">
             <h1 className="fonts">Zurich</h1>
-            <h2></h2>
+          
             <center>
 
             <h2 className="fonts">93%❤️</h2>
             </center>
-            <a href="https://www.myswitzerland.com/en-in/destinations/zurich-1/">Explore</a>
+            {/* <a href="https://www.myswitzerland.com/en-in/destinations/zurich-1/">Explore</a> */}
           </div>
         </div>
 
         {/* Saint Moritz*/}
         <div className="cards">
-          <img
-            src="https://media.istockphoto.com/id/539167007/photo/aerial-view-on-zermatt-valley-and-matterhorn-peak-at-dawn.jpg?s=2048x2048&w=is&k=20&c=beFZpf9sJmRFwEIa2Lt7P3q1612L458vRmEeVMcbbsI="
-            alt="hsj"
-            />
+          {/* <img src="https://media.istockphoto.com/id/539167007/photo/aerial-view-on-zermatt-valley-and-matterhorn-peak-at-dawn.jpg?s=2048x2048&w=is&k=20&c=beFZpf9sJmRFwEIa2Lt7P3q1612L458vRmEeVMcbbsI="/> */}
           <div className="contents">
             <h1 className="fonts">Saint Moritz</h1>
-            <h2></h2>
+            
             <center>
             <h2 className="fonts">93%❤️</h2>
             </center>
-            <a href="https://www.myswitzerland.com/en/destinations/st-moritz/">Explore</a>
+            {/* <a href="https://www.myswitzerland.com/en/destinations/st-moritz/">Explore</a> */}
   
           </div>
         </div>

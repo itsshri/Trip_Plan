@@ -22,7 +22,7 @@ const Signup=()=>
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
                         <input type="password" id="password" required autoComplete="off"/>
-                        <label for="password">Password</label>
+                        <label for="password">PassWord</label>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>

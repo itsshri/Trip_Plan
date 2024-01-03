@@ -11,7 +11,7 @@ const About = () => {
       <div className="responsive-container-block Container bottomContainer">
         <div className="allText bottomText">
           <p className="text-blk headingText">
-            About
+            about
           </p>
           <p className="text-blk subHeadingText">
             Visit Swiss

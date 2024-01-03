@@ -1,7 +1,6 @@
 import '../Styles/Login.css';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import Footer from '../Pages/Footer';
 const Login=()=>
 {
     const navigate = useNavigate();
@@ -15,7 +14,7 @@ const Login=()=>
         } else if (b !== "shri123") {
             alert("Password Invalid");
         }
-        else if(a=="shri" && b=="shri123")
+        else if(a==="shri" && b==="shri123")
         {
             navigate('/home');
         }
@@ -38,9 +37,9 @@ const Login=()=>
                         <input type="password" id="password" required autoComplete="off"/>
                         <label for="">Password</label>
                     </div>
-                    <a href="#">
+                   
                         <button type="submit">Log in</button>
-                      </a>
+                     
                     <div class="register">
                         <p>Don't have a account <Link to="/signup">Register</Link></p>
                     </div>
@@ -66,9 +65,9 @@ const Login=()=>
                         <input type="password" id="password" required autoComplete="off"/>
                         <label for="">Password</label>
                     </div>
-                    <a href="#">
-                        <button type="submit">Log in</button>
-                      </a>
+                    
+                        <button type="submit">Login</button>
+                    
                     <div class="register">
                         <p>Don't have a account <Link to="/signup">Register</Link></p>
                     </div>

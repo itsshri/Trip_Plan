@@ -22,7 +22,7 @@ const Dashboard= () => {
           <ul>
 
             <Link to="/">
-            <li><a href="#">Logout 📤</a></li>
+            <li><a href="#">Logout📤</a></li>
             </Link>
           </ul>
             
