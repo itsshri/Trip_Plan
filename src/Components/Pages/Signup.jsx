@@ -6,6 +6,7 @@ const Signup=()=>
         let a = document.getElementById("name").value;
         alert(a + " Successfully Registered");
       };
+      
     return(
         <>
         <section>
